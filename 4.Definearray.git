@@ -1,0 +1,5 @@
+def join_strings(array: list[str]) -> str:
+    return " ".join(array)ls
+a = ["string", "string", "string", "string", "string"]
+result = join_strings(a)
+print(result)
